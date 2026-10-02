@@ -1,0 +1,10 @@
+1. Run petal generator is .inp file does not exist. There are some parameters you can change in the script.
+2. Open Abaqus and import the generated .inp file in File->Import->Model...
+3. Create material properties. Choose Elastic then set the Young's modulus and Poisson ratio (initially set as 3e9 and 0.35 for now)
+4. Create Section under PARTs, set "Solid, Homogeneous" and pick the material you created.
+5. Under the Sections sidebar, choose Assign Section (3rd option on the left from the top) and select the mesh. It should turn cyan.
+6. Set the Steps. Choose Static, General(?). Leave the options as default for now (?).
+6. Set the BCs to the created Step. You can choose from existing Sets by clicking the Sets button on the lower right.
+7. Set Field Output Requests. Have at least S,U,IVOL.
+8. Load the visualization results from the ODB file created from the job. Click Plot Contour on Deformed Shape on the result page in the side bar.
+Run the ODB processing script on the ODB if we want the calculation results. 

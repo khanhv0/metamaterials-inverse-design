@@ -1,0 +1,51 @@
+<Description>
+   ABAQUS/pre rank 0 received the ABORT signal
+
+</Description>
+
+<Context>
+   PRE
+</Context>
+
+<Phase>
+   pre | SMAPre_CloseOdbFiles
+</Phase>
+
+<Callstack>
+  1)  ucrtbase.dll                abort                                   
+  2)  JS0GROUP.dll                CATError::ThrowSmartPtr::~ThrowSmartPtr 
+  3)  JS0GROUP.dll                CATTransactionTime::TransactionCompare  
+  4)  VCRUNTIME140_1.dll          _CxxFrameHandler4                       
+  5)  VCRUNTIME140_1.dll        unknown                                 
+</Callstack>
+
+<Memory>
+   <Current>            4 GB </Current>
+   <Resident>           0 GB </Resident>
+   <Physical>          31 GB </Physical>
+   <Limit>             20 GB </Limit>
+   <Accessible>        31 GB </Accessible>
+   <Available>         21 GB </Available>
+   <Allocator>            DL </Allocator>
+</Memory>
+
+<Swap>
+       <Size>          36 GB </Size>
+       <Used>          15 GB </Used>
+       <Free>          20 GB </Free>
+</Swap>
+
+<Directories>
+  <current> C:\Users\remist1\AppData\Local\Temp\remist1_Job_17840 </current> <free>    177 GB </free>   <used>    773 GB </used> 
+    <indir> Y:\Documents\Programming\Computational_project\my-awesome-project\pipeline\batch_results\jobdesign_0000 </indir>   <free>    186 GB </free>  
+   <outdir> Y:\Documents\Programming\Computational_project\my-awesome-project\pipeline\batch_results\jobdesign_0000 </outdir>  <free>    186 GB </free> 
+   <tmpdir> C:\Users\remist1\AppData\Local\Temp\remist1_Job_17840 </tmpdir>  <free>    177 GB </free> 
+     <temp> C:\Users\remist1\AppData\Local\Temp </temp>    <free>    177 GB </free>
+</Directories>
+
+<Installation>
+     <Version> 2023.HF4 6.23-5 </Version>
+       <Build> 2023_07_21-20.45.57 RELr425 183702 </Build>
+  <Executable> C:\SIMULIA\EstProducts\2023\win_b64\code\bin\pre.exe </Executable>
+</Installation>
+

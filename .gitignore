@@ -1,0 +1,11 @@
+.idea
+pipeline/mesh_generator_old.py
+.vscode
+pipeline/__pycache__
+.venv
+models_refactored/__pycache__
+models_refactored/training_notebook.ipynb
+models_refactored/best_models/2025_11_11_11_21
+models_refactored/best_models/2025_11_11_12_28
+ml_workflow/__pycache__
+__pycache__

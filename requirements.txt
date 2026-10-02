@@ -1,0 +1,8 @@
+numpy
+matplotlib
+triangle
+scipy
+torch
+scikit-learn
+pandas
+pyside6
